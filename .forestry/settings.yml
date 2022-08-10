@@ -4,6 +4,15 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: app
+  create: all
+  match: "**/*"
+  templates:
+  - 4-column-footer
+  - text-only-hero-banner
+  - content-feature
+  - hero-banner-w-image
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
