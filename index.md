@@ -19,7 +19,7 @@ page_sections:
     link_text: Blocks
   cta:
     url: "#"
-    button_text: Buy token
+    button_text: APP
 - template: hero-banner-w-image
   block: hero-2
   slug: features
